@@ -23,10 +23,10 @@ This tool speeds up that workflow by allowing you to perform this operation with
 
 ### 1. Project Setup
 #### Package Manager (recomended)
-1. Navigate to Window > Package Manager.
-2. Click the "+" button and select "Add package from git URL".
+1. Navigate to `Window` **>** `Package Manager`.
+2. Click the `+` button and select `Add package from git URL`.
 3. Enter the URL: [https://github.com/wileydev/TrimSheetUtility](https://github.com/wileydev/TrimSheetUtility)
-4. Click "Add".
+4. Click `Add`.
 
 #### Git Repository
 1. Clone this repository and save the scripts inside your project directory.
@@ -35,18 +35,18 @@ This tool speeds up that workflow by allowing you to perform this operation with
 ### 2. Step-by-Step Workflow Pipeline
 
 #### Step A: Initialize the Workbench Window
-* In the Unity Editor top menu, go to **Window > Trim Sheet Editor**.
+* In the Unity Editor top menu, go to `Window` **>** `Trim Sheet Editor`.
 * The Utility can only work with GameObjects that have a Mesh Collider.  
 
 #### Step B: Define Island Groups (Tab 1)
-* Select **Tab 1: Group Islands** in the tool window.
+* Select `Tab 1: Group Islands` in the tool window.
 * In the Scene view, hold `Shift` and click individual mesh faces to add or remove them from your selection. 
-* Enter a title for your custom island partition and click **"Extract Faces & Split to New Island"**. This physically duplicates the shared boundary vertex points to prevent seam tearing.
+* Enter a title for your custom island partition and click `"Extract Faces & Split to New Island"`. This physically duplicates the shared boundary vertex points to prevent seam tearing.
 
 #### Step C: Adjust Texture Placements (Tab 2)
-* Switch to **Tab 2: Transform Islands**.
+* Switch to `Tab 2: Transform Islands`.
 * Hold `Ctrl` and left-click any island in the 3D viewport. The 2D preview frame highlights its exact boundary limits.
-* Adjust the **UV Offset Vector** (click-and-drag on the X and Y labels) or the **UV Rotation Angle** slider or the **UV Scale Factor Slider**. 
+* Adjust the `UV Offset Vector` (click-and-drag on the X and Y labels) or the `UV Rotation Angle` slider or the `UV Scale Factor Slider`. 
 
 #### Step D: Hard-Bake
 When your asset variation setup is complete, you have 3 options:
