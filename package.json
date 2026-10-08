@@ -1,0 +1,19 @@
+{
+  "name": "com.dangerbuoygames.trimsheetutility",
+  "displayName": "Trim Sheet Utility",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "A Unity utility that allows defining, transforming, and baking UV islands directly in the Unity Editor for rapid trim sheet workflows without needing external 3D modeling tools.",
+  "keywords": [
+    "trimsheet",
+    "uv",
+    "editor",
+    "mesh",
+    "texture",
+    "tools"
+  ],
+  "author": {
+    "name": "William Nguyen"
+  },
+  "license": "MIT"
+}
