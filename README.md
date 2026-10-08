@@ -25,7 +25,7 @@ This tool speeds up that workflow by allowing you to perform this operation with
 #### Package Manager (recomended)
 1. Navigate to Window > Package Manager.
 2. Click the "+" button and select "Add package from git URL".
-3. Enter the URL: https://github.com/tempurl"
+3. Enter the URL: [https://github.com/wileydev/TrimSheetUtility](https://github.com/wileydev/TrimSheetUtility)
 4. Click "Add".
 
 #### Git Repository
